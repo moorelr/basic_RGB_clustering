@@ -1,13 +1,13 @@
-### Basic RGB clustering
+# Basic RGB clustering
 Copyright Lowell R. Moore 2023
 
 This R code can be used to manually identify clusters in RGB raster images.  While it will work on any RGB raster image, it was written to be used on stacks of X-ray maps and/or backscattered electron (BSE) images.
 
-# Dependencies:
+### Dependencies:
 - "raster" and "rgdal" to process raster images
 - "rgl" to make 3D plots
 
-# Basic workflow:
+### Basic workflow:
 - Configure the import path variables so R can find the image
 - Run the "Initialization" section to import packages and 
 - Run the self-explanatory, yet poorly-named "Retrieve flagged pixels over image area" section
@@ -17,7 +17,7 @@ This R code can be used to manually identify clusters in RGB raster images.  Whi
 - Be careful with the locate_poly function. sometimes the locate function doesn't work correctly
 - Save cluster maps to csv and a raster image, and check to see if you're happy with the results -- maybe open the csv as a text image in ImageJ
 
-# TODO:
+### TODO:
 - blog update for this release
 - MIT license
 - add comments within functions
