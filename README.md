@@ -1,5 +1,4 @@
 # Basic RGB clustering
-Copyright Lowell R. Moore 2023
 
 This R code can be used to manually identify clusters in RGB raster images.  While it will work on any RGB raster image, it was written to be used on stacks of X-ray maps and/or backscattered electron (BSE) images.
 
